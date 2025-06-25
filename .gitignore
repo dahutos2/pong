@@ -1,0 +1,21 @@
+# Python & uv 仮想環境
+.venv/
+.env/
+.python-version
+
+# Python キャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Kivy キャッシュ類
+.kivy/
+.cache/
+
+# iOS関連（toolchain生成物）
+*-ios/
+build/
+dist/
