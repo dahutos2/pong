@@ -25,4 +25,8 @@ else
     echo "✅ 既存の $PROJECT_DIR を再利用します"
 fi
 
+echo "📁 アイコンを同期 (icon.png → $PROJECT_DIR/icon.png)"
+rm -rf "$PROJECT_DIR/icon.png"
+cp icon.png "$PROJECT_DIR/icon.png"
+
 echo "✅ 完了: $PROJECT_DIR に iOS ビルド環境が整いました"
