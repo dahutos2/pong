@@ -6,7 +6,7 @@ setup:
 
 # アプリ実行（mac開発用）
 run:
-	uv run python main.py
+	uv run python src/main.py
 
 # iOSビルド
 ios:
